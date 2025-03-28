@@ -1,0 +1,34 @@
+{
+    "FileVersion": "2.3.1",
+    "EnableAddressable": false,
+    "LocationToLower": false,
+    "IncludeAssetGUID": false,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 2,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2025-03-28-1033",
+    "PackageNote": "2025/3/28 17:14:14",
+    "AssetList": [
+        {
+            "Address": "",
+            "AssetPath": "Assets/AssetBundle/09dc57e33169132ae36c48eea3aade0c.png",
+            "AssetGUID": "",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "assets_assetbundle.bundle",
+            "UnityCRC": 1147758008,
+            "FileHash": "5e0286c9c0d6917c23d6008307efb908",
+            "FileCRC": "23866cec",
+            "FileSize": 2013427,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        }
+    ]
+}

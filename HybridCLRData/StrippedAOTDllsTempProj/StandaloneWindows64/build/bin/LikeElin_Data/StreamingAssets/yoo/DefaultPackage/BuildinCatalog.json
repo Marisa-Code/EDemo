@@ -1,0 +1,23 @@
+{
+    "FileVersion": "1.0.0",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2025-03-29-964",
+    "Wrappers": [
+        {
+            "BundleGUID": "40f400389e03458175fb7247966984ae",
+            "FileName": "40f400389e03458175fb7247966984ae.bundle"
+        },
+        {
+            "BundleGUID": "808db4a36eb16d8bff8f254a8cfdfa30",
+            "FileName": "808db4a36eb16d8bff8f254a8cfdfa30.bundle"
+        },
+        {
+            "BundleGUID": "c1c54ea21bd9c9cd916299ae0a193172",
+            "FileName": "c1c54ea21bd9c9cd916299ae0a193172.bundle"
+        },
+        {
+            "BundleGUID": "ca9ff5af31c037e22df7e4a425e72323",
+            "FileName": "ca9ff5af31c037e22df7e4a425e72323.bundle"
+        }
+    ]
+}

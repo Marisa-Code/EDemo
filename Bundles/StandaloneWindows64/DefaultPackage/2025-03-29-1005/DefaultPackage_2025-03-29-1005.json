@@ -1,0 +1,132 @@
+{
+    "FileVersion": "2.3.1",
+    "EnableAddressable": true,
+    "LocationToLower": false,
+    "IncludeAssetGUID": true,
+    "OutputNameStyle": 0,
+    "BuildBundleType": 2,
+    "BuildPipeline": "BuiltinBuildPipeline",
+    "PackageName": "DefaultPackage",
+    "PackageVersion": "2025-03-29-1005",
+    "PackageNote": "2025/3/29 16:46:38",
+    "AssetList": [
+        {
+            "Address": "Code_HotFix.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/Code/HotFix.dll.bytes",
+            "AssetGUID": "72cddd5bcdad77442b31e6241f485d17",
+            "AssetTags": [],
+            "BundleID": 0,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "MetaCode_mscorlib.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/mscorlib.dll.bytes",
+            "AssetGUID": "e72157bb23fc8ef45b0770410d5f15bb",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "MetaCode_System.Core.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/System.Core.dll.bytes",
+            "AssetGUID": "ab2073711b779e046b6c5814cf489fbc",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "MetaCode_System.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/System.dll.bytes",
+            "AssetGUID": "d04a4be7d1307b143886d9c7b54a3627",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "MetaCode_UnityEngine.JSONSerializeModule.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/UnityEngine.JSONSerializeModule.dll.bytes",
+            "AssetGUID": "e0bcef6f1129b1a4b8cfc2d1df75a680",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "MetaCode_UnityScripts.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/UnityScripts.dll.bytes",
+            "AssetGUID": "dea99542609bb2e4aa06edb5990758d4",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "MetaCode_YooAsset.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/YooAsset.dll.bytes",
+            "AssetGUID": "35738b24f95d49d4abe8bbb75f5d4576",
+            "AssetTags": [],
+            "BundleID": 2,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "Image_1",
+            "AssetPath": "Assets/AssetBundle/Image/1.png",
+            "AssetGUID": "df85bf92752c0a64cb12c547976e6068",
+            "AssetTags": [],
+            "BundleID": 1,
+            "DependBundleIDs": []
+        },
+        {
+            "Address": "UI_ui",
+            "AssetPath": "Assets/AssetBundle/ui/ui.prefab",
+            "AssetGUID": "c4e717ddacc96a846abcc7d97a5f1a87",
+            "AssetTags": [],
+            "BundleID": 3,
+            "DependBundleIDs": [
+                1
+            ]
+        }
+    ],
+    "BundleList": [
+        {
+            "BundleName": "defaultpackage_code.bundle",
+            "UnityCRC": 591314766,
+            "FileHash": "c1c54ea21bd9c9cd916299ae0a193172",
+            "FileCRC": "44f33f86",
+            "FileSize": 3483,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_image.bundle",
+            "UnityCRC": 3885687679,
+            "FileHash": "40f400389e03458175fb7247966984ae",
+            "FileCRC": "e6d6cc62",
+            "FileSize": 2013415,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_metacode.bundle",
+            "UnityCRC": 4071502645,
+            "FileHash": "a6d27bb58e4c7637a3973384e0c95749",
+            "FileCRC": "755363ab",
+            "FileSize": 1168492,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": []
+        },
+        {
+            "BundleName": "defaultpackage_ui.bundle",
+            "UnityCRC": 3929653981,
+            "FileHash": "808db4a36eb16d8bff8f254a8cfdfa30",
+            "FileCRC": "aa2bbbf1",
+            "FileSize": 4222,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundleIDs": [
+                1
+            ]
+        }
+    ]
+}

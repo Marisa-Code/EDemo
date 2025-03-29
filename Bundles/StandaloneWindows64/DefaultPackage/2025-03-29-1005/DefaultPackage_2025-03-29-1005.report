@@ -1,0 +1,234 @@
+{
+    "Summary": {
+        "YooVersion": "2.3.6",
+        "UnityVersion": "2022.3.55f1c1",
+        "BuildDate": "2025/3/29 16:46:40",
+        "BuildSeconds": 0,
+        "BuildTarget": 19,
+        "BuildPipeline": "BuiltinBuildPipeline",
+        "BuildBundleType": 2,
+        "BuildPackageName": "DefaultPackage",
+        "BuildPackageVersion": "2025-03-29-1005",
+        "BuildPackageNote": "2025/3/29 16:46:38",
+        "UniqueBundleName": true,
+        "EnableAddressable": true,
+        "LocationToLower": false,
+        "IncludeAssetGUID": true,
+        "AutoCollectShaders": true,
+        "IgnoreRuleName": "YooAsset.Editor.NormalIgnoreRule",
+        "ClearBuildCacheFiles": true,
+        "UseAssetDependencyDB": false,
+        "EnableSharePackRule": true,
+        "SingleReferencedPackAlone": true,
+        "EncryptionClassName": "null",
+        "FileNameStyle": 0,
+        "CompressOption": 2,
+        "DisableWriteTypeTree": false,
+        "IgnoreTypeTreeChanges": true,
+        "WriteLinkXML": true,
+        "CacheServerHost": "",
+        "CacheServerPort": 0,
+        "BuiltinShadersBundleName": "",
+        "MonoScriptsBundleName": "",
+        "AssetFileTotalCount": 9,
+        "MainAssetTotalCount": 9,
+        "AllBundleTotalCount": 4,
+        "AllBundleTotalSize": 3189612,
+        "EncryptedBundleTotalCount": 0,
+        "EncryptedBundleTotalSize": 0
+    },
+    "AssetInfos": [
+        {
+            "Address": "Code_HotFix.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/Code/HotFix.dll.bytes",
+            "AssetGUID": "72cddd5bcdad77442b31e6241f485d17",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_code.bundle",
+            "MainBundleSize": 3483,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "MetaCode_mscorlib.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/mscorlib.dll.bytes",
+            "AssetGUID": "e72157bb23fc8ef45b0770410d5f15bb",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_metacode.bundle",
+            "MainBundleSize": 1168492,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "MetaCode_System.Core.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/System.Core.dll.bytes",
+            "AssetGUID": "ab2073711b779e046b6c5814cf489fbc",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_metacode.bundle",
+            "MainBundleSize": 1168492,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "MetaCode_System.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/System.dll.bytes",
+            "AssetGUID": "d04a4be7d1307b143886d9c7b54a3627",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_metacode.bundle",
+            "MainBundleSize": 1168492,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "MetaCode_UnityEngine.JSONSerializeModule.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/UnityEngine.JSONSerializeModule.dll.bytes",
+            "AssetGUID": "e0bcef6f1129b1a4b8cfc2d1df75a680",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_metacode.bundle",
+            "MainBundleSize": 1168492,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "MetaCode_UnityScripts.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/UnityScripts.dll.bytes",
+            "AssetGUID": "dea99542609bb2e4aa06edb5990758d4",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_metacode.bundle",
+            "MainBundleSize": 1168492,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "MetaCode_YooAsset.dll",
+            "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/YooAsset.dll.bytes",
+            "AssetGUID": "35738b24f95d49d4abe8bbb75f5d4576",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_metacode.bundle",
+            "MainBundleSize": 1168492,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "Image_1",
+            "AssetPath": "Assets/AssetBundle/Image/1.png",
+            "AssetGUID": "df85bf92752c0a64cb12c547976e6068",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_image.bundle",
+            "MainBundleSize": 2013415,
+            "DependAssets": [],
+            "DependBundles": []
+        },
+        {
+            "Address": "UI_ui",
+            "AssetPath": "Assets/AssetBundle/ui/ui.prefab",
+            "AssetGUID": "c4e717ddacc96a846abcc7d97a5f1a87",
+            "AssetTags": [],
+            "MainBundleName": "defaultpackage_ui.bundle",
+            "MainBundleSize": 4222,
+            "DependAssets": [
+                {
+                    "AssetPath": "Assets/AssetBundle/Image/1.png",
+                    "AssetGUID": "df85bf92752c0a64cb12c547976e6068"
+                }
+            ],
+            "DependBundles": [
+                "defaultpackage_image.bundle"
+            ]
+        }
+    ],
+    "BundleInfos": [
+        {
+            "BundleName": "defaultpackage_code.bundle",
+            "FileName": "c1c54ea21bd9c9cd916299ae0a193172.bundle",
+            "FileHash": "c1c54ea21bd9c9cd916299ae0a193172",
+            "FileCRC": "44f33f86",
+            "FileSize": 3483,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/AssetBundle/Dll/Code/HotFix.dll.bytes",
+                    "AssetGUID": "72cddd5bcdad77442b31e6241f485d17"
+                }
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_image.bundle",
+            "FileName": "40f400389e03458175fb7247966984ae.bundle",
+            "FileHash": "40f400389e03458175fb7247966984ae",
+            "FileCRC": "e6d6cc62",
+            "FileSize": 2013415,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [
+                "defaultpackage_ui.bundle"
+            ],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/AssetBundle/Image/1.png",
+                    "AssetGUID": "df85bf92752c0a64cb12c547976e6068"
+                }
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_metacode.bundle",
+            "FileName": "a6d27bb58e4c7637a3973384e0c95749.bundle",
+            "FileHash": "a6d27bb58e4c7637a3973384e0c95749",
+            "FileCRC": "755363ab",
+            "FileSize": 1168492,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/mscorlib.dll.bytes",
+                    "AssetGUID": "e72157bb23fc8ef45b0770410d5f15bb"
+                },
+                {
+                    "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/System.Core.dll.bytes",
+                    "AssetGUID": "ab2073711b779e046b6c5814cf489fbc"
+                },
+                {
+                    "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/System.dll.bytes",
+                    "AssetGUID": "d04a4be7d1307b143886d9c7b54a3627"
+                },
+                {
+                    "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/UnityEngine.JSONSerializeModule.dll.bytes",
+                    "AssetGUID": "e0bcef6f1129b1a4b8cfc2d1df75a680"
+                },
+                {
+                    "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/UnityScripts.dll.bytes",
+                    "AssetGUID": "dea99542609bb2e4aa06edb5990758d4"
+                },
+                {
+                    "AssetPath": "Assets/AssetBundle/Dll/MetaDataCode/YooAsset.dll.bytes",
+                    "AssetGUID": "35738b24f95d49d4abe8bbb75f5d4576"
+                }
+            ]
+        },
+        {
+            "BundleName": "defaultpackage_ui.bundle",
+            "FileName": "808db4a36eb16d8bff8f254a8cfdfa30.bundle",
+            "FileHash": "808db4a36eb16d8bff8f254a8cfdfa30",
+            "FileCRC": "aa2bbbf1",
+            "FileSize": 4222,
+            "Encrypted": false,
+            "Tags": [],
+            "DependBundles": [
+                "defaultpackage_image.bundle"
+            ],
+            "ReferenceBundles": [],
+            "BundleContents": [
+                {
+                    "AssetPath": "Assets/AssetBundle/ui/ui.prefab",
+                    "AssetGUID": "c4e717ddacc96a846abcc7d97a5f1a87"
+                }
+            ]
+        }
+    ],
+    "IndependAssets": []
+}

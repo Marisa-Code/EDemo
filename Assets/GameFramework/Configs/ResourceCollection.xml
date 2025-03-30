@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<UnityGameFramework>
+  <ResourceCollection>
+    <Resources>
+      <Resource Name="Configs/ResourceEditor" LoadType="0" Packed="False" />
+      <Resource Name="Resources/Prefab/UI_Menu" LoadType="0" Packed="False" />
+      <Resource Name="Resources/Scenes/Demo2_Game" LoadType="0" Packed="False" />
+      <Resource Name="Resources/Scenes/Demo2_Menu" LoadType="0" Packed="False" />
+      <Resource Name="Resources/Scenes/StartScene" LoadType="0" Packed="False" />
+    </Resources>
+    <Assets>
+      <Asset Guid="49ec680d37076094093523dabdf7af6c" ResourceName="Resources/Scenes/StartScene" />
+      <Asset Guid="8f62eb0999f2e8248bee77ae76f622b9" ResourceName="Resources/Scenes/Demo2_Menu" />
+      <Asset Guid="9f054b72e11b9a04eac3a232aa47197a" ResourceName="Resources/Scenes/Demo2_Game" />
+      <Asset Guid="a66a8bb1ba041574e9ec52f406e8ede4" ResourceName="Resources/Prefab/UI_Menu" />
+      <Asset Guid="edb28331d3564db4282855ea1a656ddf" ResourceName="Configs/ResourceEditor" />
+    </Assets>
+  </ResourceCollection>
+</UnityGameFramework>

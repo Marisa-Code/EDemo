@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: bdb459eb89051ad49a70fba29cf6a110
-labels:
-- ResourceExclusive
-TextScriptImporter:
+guid: 1801b9913a6716242b8bdf7b5316f575
+folderAsset: yes
+DefaultImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 

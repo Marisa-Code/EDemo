@@ -39,23 +39,23 @@ namespace EdgeShimmer.Save
         /// <summary>
         /// 进入游戏后加载存档或创建
         /// </summary>
-        public void InitPlayerData()
+        public async Task InitPlayerData()
         {
             m_SaveHelper.InitSaveDataFile();
             if (m_SaveHelper.GetAllSaveName().Length <= 0)
             {
                 foreach (var dataController in m_ControllerList)
                 {
-                    dataController.SaveData();
+                    await dataController.SaveData();
                 }
             }
             else
             {
-                LoadAllData();
+                await LoadAllData();
             }
         }
 
-        private async void LoadAllData()
+        private async Task LoadAllData()
         {
             try
             {
@@ -73,7 +73,7 @@ namespace EdgeShimmer.Save
         
         
         
-        public async void SaveData(PLayerDataValue playerDataValue)
+        public async Task SaveData(PLayerDataValue playerDataValue)
         {
             try
             {
@@ -89,7 +89,7 @@ namespace EdgeShimmer.Save
             }
         }
 
-        public async void DeleteData(PLayerDataValue playerDataValue)
+        public async Task DeleteData(PLayerDataValue playerDataValue)
         {
             try
             {

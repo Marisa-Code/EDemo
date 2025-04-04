@@ -1,0 +1,13 @@
+ManifestFileVersion: 0
+CRC: 2753523756
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: configs
+      Dependencies: {}
+    Info_1:
+      Name: scenes
+      Dependencies: {}
+    Info_2:
+      Name: ui/uiforms
+      Dependencies: {}

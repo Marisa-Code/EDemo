@@ -3,54 +3,14 @@
   <ResourceCollection>
     <Resources>
       <Resource Name="Configs" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="DataTables" FileSystem="GameData" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Entities" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Fonts" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Localization/Dictionaries" Variant="en-us" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Localization/Dictionaries" Variant="ko-kr" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Localization/Dictionaries" Variant="zh-cn" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Localization/Dictionaries" Variant="zh-tw" FileSystem="UI" LoadType="0" Packed="True" ResourceGroups="Base" />
-      <Resource Name="Materials" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Meshes" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Music/About" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music" />
-      <Resource Name="Music/Background" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music" />
-      <Resource Name="Music/Menu" FileSystem="Resources" LoadType="0" Packed="True" ResourceGroups="Music" />
       <Resource Name="Scenes" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Sounds" FileSystem="Resources" LoadType="0" Packed="True" />
-      <Resource Name="Textures" FileSystem="Resources" LoadType="0" Packed="True" />
       <Resource Name="UI/UIForms" FileSystem="UI" LoadType="0" Packed="True" />
-      <Resource Name="UI/UISounds" FileSystem="UI" LoadType="0" Packed="True" />
-      <Resource Name="UI/UISprites/Common" FileSystem="UI" LoadType="0" Packed="True" />
-      <Resource Name="UI/UISprites/Icons" FileSystem="UI" LoadType="0" Packed="True" />
-      <Resource Name="UI/UISprites/Logos" FileSystem="UI" LoadType="0" Packed="True" />
     </Resources>
     <Assets>
-      <Asset Guid="239366f83979ffa48a45dac2f0f1e8cb" ResourceName="DataTables" />
-      <Asset Guid="315e8ed2db27c254cb3366ff0793cd90" ResourceName="DataTables" />
-      <Asset Guid="352da872791696c48af3b21132e3e3c3" ResourceName="DataTables" />
-      <Asset Guid="372a8b1e52bedc64b9207b12d167afaa" ResourceName="DataTables" />
       <Asset Guid="44c8db52241385c45bbb14a1718f17bf" ResourceName="Configs" />
       <Asset Guid="49ec680d37076094093523dabdf7af6c" ResourceName="Scenes" />
-      <Asset Guid="4a17d2c656f5c6b44a31e3ee547a76b0" ResourceName="DataTables" />
-      <Asset Guid="4db6a299939bfe94893585eb387f577a" ResourceName="DataTables" />
-      <Asset Guid="64f3bb52c6a54854688fcc656af2b1c9" ResourceName="DataTables" />
       <Asset Guid="7fd11dc5d29076d469d414dec2818f11" ResourceName="Configs" />
-      <Asset Guid="8b1acacd22538f34cb85287a0781ea5e" ResourceName="DataTables" />
-      <Asset Guid="8e114ded6a865324588170636872943c" ResourceName="DataTables" />
-      <Asset Guid="97d117308cf86924289e81e7e71dd5dd" ResourceName="DataTables" />
-      <Asset Guid="9b433f0bb7fef6f4085c316a0d88c307" ResourceName="DataTables" />
-      <Asset Guid="9c3961f379234354e813d7b38146424d" ResourceName="DataTables" />
-      <Asset Guid="9c3faac13c8ced84a9f3018303b7bb98" ResourceName="DataTables" />
-      <Asset Guid="a33e23ae848110243820cda82120b105" ResourceName="DataTables" />
       <Asset Guid="a66a8bb1ba041574e9ec52f406e8ede4" ResourceName="UI/UIForms" />
-      <Asset Guid="a71f8bb1b1b2c51438e2bafc884cb02c" ResourceName="DataTables" />
-      <Asset Guid="ab4774faf71b57a40a29a9e902403fe3" ResourceName="DataTables" />
-      <Asset Guid="ad56aae2bb0f2ce4a86711287e14e223" ResourceName="DataTables" />
-      <Asset Guid="b2cebe04343227945bab3729ca9a3493" ResourceName="DataTables" />
-      <Asset Guid="cfe53cf384344bd47a8680f8c5f97a7b" ResourceName="DataTables" />
-      <Asset Guid="e0792649e7774a24d8e7cceba0231c61" ResourceName="DataTables" />
-      <Asset Guid="f2f97a713beae744181ba934f9c4113a" ResourceName="DataTables" />
-      <Asset Guid="fdb5edd099d06b045af609ba3172400a" ResourceName="DataTables" />
     </Assets>
   </ResourceCollection>
 </UnityGameFramework>

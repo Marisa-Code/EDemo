@@ -1,3 +1,4 @@
+using GameFramework;
 using UnityEngine;
 using UnityGameFramework.Runtime;
 
@@ -14,7 +15,7 @@ namespace EdgeShimmer
 
         void InitCustomComponents()
         {
-
+            
         }
     }
 }

@@ -3,13 +3,13 @@
   <ResourceBuilder>
     <Settings>
       <InternalResourceVersion>1</InternalResourceVersion>
-      <Platforms>1</Platforms>
+      <Platforms>2</Platforms>
       <AssetBundleCompression>1</AssetBundleCompression>
       <CompressionHelperTypeName>UnityGameFramework.Runtime.DefaultCompressionHelper</CompressionHelperTypeName>
-      <AdditionalCompressionSelected>True</AdditionalCompressionSelected>
-      <ForceRebuildAssetBundleSelected>False</ForceRebuildAssetBundleSelected>
+      <AdditionalCompressionSelected>False</AdditionalCompressionSelected>
+      <ForceRebuildAssetBundleSelected>True</ForceRebuildAssetBundleSelected>
       <BuildEventHandlerTypeName>EdgeShimmer.Editor.StarForceBuildEventHandler</BuildEventHandlerTypeName>
-      <OutputDirectory>C:/Users/long/Desktop/etst</OutputDirectory>
+      <OutputDirectory>C:/Users/long/Desktop/新建文件夹</OutputDirectory>
       <OutputPackageSelected>True</OutputPackageSelected>
       <OutputFullSelected>True</OutputFullSelected>
       <OutputPackedSelected>True</OutputPackedSelected>

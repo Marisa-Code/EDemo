@@ -27,6 +27,7 @@ namespace UnityGameFramework.Runtime
 
         [SerializeField]
         private SettingHelperBase m_CustomSettingHelper = null;
+        
 
         /// <summary>
         /// 获取游戏配置项数量。
@@ -38,6 +39,7 @@ namespace UnityGameFramework.Runtime
                 return m_SettingManager.Count;
             }
         }
+        
 
         /// <summary>
         /// 游戏框架组件初始化。

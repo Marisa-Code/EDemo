@@ -5,7 +5,7 @@ using GameFramework.FileSystem;
 using UnityEngine;
 using FileInfo = GameFramework.FileSystem.FileInfo;
 
-namespace EdgeShimmer
+namespace EdgeShimmer.Save
 {
     /// <summary>
     /// 存储存档文件

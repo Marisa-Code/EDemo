@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using GameFramework.FileSystem;
 using UnityEngine;
 
-namespace  EdgeShimmer
+namespace  EdgeShimmer.Save
 {
     public interface ISaveHelper
     {

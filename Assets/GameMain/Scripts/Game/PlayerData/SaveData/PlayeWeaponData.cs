@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace EdgeShimmer
+namespace EdgeShimmer.Save
 {
     /// <summary>
     /// 玩家数据武器类

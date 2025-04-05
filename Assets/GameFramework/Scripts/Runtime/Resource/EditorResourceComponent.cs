@@ -490,6 +490,26 @@ namespace UnityGameFramework.Runtime
 #pragma warning disable 0067, 0414
 
         /// <summary>
+        /// 资源校验开始事件。
+        /// </summary>
+        public event EventHandler<GameFramework.Resource.ResourceVerifyStartEventArgs> ResourceVerifyStart = null;
+
+        /// <summary>
+        /// 资源校验成功事件。
+        /// </summary>
+        public event EventHandler<GameFramework.Resource.ResourceVerifySuccessEventArgs> ResourceVerifySuccess = null;
+
+        /// <summary>
+        /// 资源校验失败事件。
+        /// </summary>
+        public event EventHandler<GameFramework.Resource.ResourceVerifyFailureEventArgs> ResourceVerifyFailure = null;
+
+        /// <summary>
+        /// 资源应用开始事件。
+        /// </summary>
+        public event EventHandler<GameFramework.Resource.ResourceApplyStartEventArgs> ResourceApplyStart = null;
+
+        /// <summary>
         /// 资源应用成功事件。
         /// </summary>
         public event EventHandler<GameFramework.Resource.ResourceApplySuccessEventArgs> ResourceApplySuccess = null;
@@ -824,6 +844,11 @@ namespace UnityGameFramework.Runtime
         public void UpdateVersionList(int versionListLength, int versionListHashCode, int versionListCompressedLength, int versionListCompressedHashCode, UpdateVersionListCallbacks updateVersionListCallbacks)
         {
             throw new NotSupportedException("UpdateVersionList");
+        }
+
+        public void VerifyResources(int verifyResourceLengthPerFrame, VerifyResourcesCompleteCallback verifyResourcesCompleteCallback)
+        {
+            throw new NotImplementedException("VerifyResources");
         }
 
         /// <summary>

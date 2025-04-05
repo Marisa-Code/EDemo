@@ -8,19 +8,22 @@ namespace EdgeShimmer.Save
 {
     public class WeaponDataController : IDataController
     {
-        private WeaponDataContainer m_weaponData = new();
+        public PlayerDataBase PlayerSaveData { get; set; }
         public ISaveHelper SaveHelper { get; set; }
+
+
         public PLayerDataValue PLayerDataValue { get; set; }
 
         public WeaponDataController(ISaveHelper baseHelper)
         {
             SaveHelper = baseHelper;
             PLayerDataValue = PLayerDataValue.PlayerWeaponData;
+            PlayerSaveData = new PlayerWeaponData();
         }
         public async Task SaveData()
         {
             try {
-                await Task.Run(() => SaveHelper.WriteFromSlot(m_weaponData.WeaponData,GameDataConfigs.WEAPON_NAME));
+                await Task.Run(() => SaveHelper.WriteFromSlot(PlayerSaveData,GameDataConfigs.WEAPON_NAME));
             } catch (Exception e) {
                 GameFrameworkLog.Error($"Save failed: {e.Message}");
             }
@@ -31,7 +34,7 @@ namespace EdgeShimmer.Save
         {
             try {
                 await Task.Run(() =>
-                    m_weaponData.WeaponData = SaveHelper.LoadFromSlot<PlayerWeaponData>(GameDataConfigs.WEAPON_NAME));
+                    PlayerSaveData = SaveHelper.LoadFromSlot<PlayerWeaponData>(GameDataConfigs.WEAPON_NAME));
             } catch (Exception e) {
                 GameFrameworkLog.Error($"Save failed: {e.Message}");
             }
@@ -41,8 +44,8 @@ namespace EdgeShimmer.Save
         {
             try {
                 
-                m_weaponData.WeaponData = new PlayerWeaponData();
-                await Task.Run(() => SaveHelper.WriteFromSlot(m_weaponData.WeaponData,GameDataConfigs.WEAPON_NAME));
+                PlayerSaveData = new PlayerWeaponData();
+                await Task.Run(() => SaveHelper.WriteFromSlot(PlayerSaveData,GameDataConfigs.WEAPON_NAME));
             } catch (Exception e) {
                 GameFrameworkLog.Error($"Save failed: {e.Message}");
             }

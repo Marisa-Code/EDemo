@@ -8,20 +8,22 @@ namespace EdgeShimmer.Save
 {
     public class PlayerDataController : IDataController
     {
-        private PlayerDataContainer m_playerData = new();
+
         public ISaveHelper SaveHelper { get; set; }
+        public PlayerDataBase PlayerSaveData { get; set; }
         public PLayerDataValue PLayerDataValue { get; set; }
 
         public PlayerDataController(ISaveHelper baseHelper)
         {
             SaveHelper = baseHelper;
             PLayerDataValue = PLayerDataValue.PlayerData;
+            PlayerSaveData = new PlayerData();
         }
 
         public async Task SaveData()
         {
             try {
-                await Task.Run(() => SaveHelper.WriteFromSlot(m_playerData.PlayerData, GameDataConfigs.DATA_NAME));
+                await Task.Run(() => SaveHelper.WriteFromSlot(PlayerSaveData, GameDataConfigs.DATA_NAME));
             } catch (Exception e) {
                 GameFrameworkLog.Error($"Save failed: {e.Message}");
             }
@@ -31,7 +33,7 @@ namespace EdgeShimmer.Save
         public async Task LoadData()
         {
             try {
-                await Task.Run(() =>  m_playerData.PlayerData = SaveHelper.LoadFromSlot<PlayerData>(GameDataConfigs.DATA_NAME));
+                await Task.Run(() =>  PlayerSaveData = SaveHelper.LoadFromSlot<PlayerData>(GameDataConfigs.DATA_NAME));
 
             } catch (Exception e) {
                 GameFrameworkLog.Error($"Save failed: {e.Message}");
@@ -41,8 +43,8 @@ namespace EdgeShimmer.Save
         public async Task DeleteData()
         {
             try {
-                m_playerData.PlayerData = new PlayerData();
-                await Task.Run(() => SaveHelper.WriteFromSlot(m_playerData.PlayerData,GameDataConfigs.DATA_NAME));
+                PlayerSaveData = new PlayerData();
+                await Task.Run(() => SaveHelper.WriteFromSlot(PlayerSaveData,GameDataConfigs.DATA_NAME));
             } catch (Exception e) {
                 GameFrameworkLog.Error($"Save failed: {e.Message}");
             }

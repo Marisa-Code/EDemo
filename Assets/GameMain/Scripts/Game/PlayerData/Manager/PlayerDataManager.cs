@@ -12,14 +12,13 @@ namespace EdgeShimmer.Save
     public class PlayerDataManager : GameFrameworkComponent
     {
         private List<IDataController> m_ControllerList;
-
         private ISaveHelper m_SaveHelper;
-
         protected override void Awake()
         {
             base.Awake();
-            m_SaveHelper = new EasySaveHelper();
+            m_SaveHelper = EasySaveHelperCreater.CreateHelper();
             AddDataControllers();
+            
         }
 
         private void AddDataControllers()
@@ -73,11 +72,11 @@ namespace EdgeShimmer.Save
         
         
         
-        public async Task SaveData(PLayerDataValue playerDataValue)
+        public async Task SaveData<T>() where T : IDataController
         {
             try
             {
-                foreach (var dataController in m_ControllerList.Where(dataController => dataController.PLayerDataValue == playerDataValue))
+                foreach (var dataController in m_ControllerList.Where(x => x.GetType() == typeof(T)))
                 {
                     await dataController.SaveData();
                     break;
@@ -89,11 +88,11 @@ namespace EdgeShimmer.Save
             }
         }
 
-        public async Task DeleteData(PLayerDataValue playerDataValue)
+        internal async Task DeleteData<T>() where T : IDataController
         {
             try
             {
-                foreach (var dataController in m_ControllerList.Where(dataController => dataController.PLayerDataValue == playerDataValue))
+                foreach (var dataController in m_ControllerList.Where(x => x.GetType() == typeof(T)))
                 {
                     await dataController.DeleteData();
                     break;

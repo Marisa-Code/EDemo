@@ -11,20 +11,12 @@ namespace EdgeShimmer.Save
         
         public PlayerDataBase PlayerSaveData { get; set; }
 
-        public PLayerDataValue PLayerDataValue { get; set; }
-
         public Task SaveData();
 
         public Task LoadData();
 
         public Task DeleteData();
 
-    }
-
-    public enum PLayerDataValue
-    {
-        PlayerData,
-        PlayerWeaponData,
     }
 }
 

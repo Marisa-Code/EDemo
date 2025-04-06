@@ -6,17 +6,15 @@ using GameFramework;
 
 namespace EdgeShimmer.Save
 {
-    public class PlayerDataController : IDataController
+    internal sealed class PlayerDataController : IDataController
     {
 
         public ISaveHelper SaveHelper { get; set; }
         public PlayerDataBase PlayerSaveData { get; set; }
-        public PLayerDataValue PLayerDataValue { get; set; }
 
         public PlayerDataController(ISaveHelper baseHelper)
         {
             SaveHelper = baseHelper;
-            PLayerDataValue = PLayerDataValue.PlayerData;
             PlayerSaveData = new PlayerData();
         }
 

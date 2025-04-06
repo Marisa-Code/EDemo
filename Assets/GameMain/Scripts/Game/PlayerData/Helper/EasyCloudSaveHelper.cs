@@ -10,7 +10,7 @@ namespace EdgeShimmer.Save
     /// <summary>
     /// 存储存档文件
     /// </summary>
-    internal sealed class EasySaveHelper : ISaveHelper
+    internal sealed class EasyCloudSaveHelper : ISaveHelper
     {
         /// <summary>
         /// 创建文件

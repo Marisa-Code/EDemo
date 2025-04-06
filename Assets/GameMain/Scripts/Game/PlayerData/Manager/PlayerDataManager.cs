@@ -9,7 +9,7 @@ using UnityGameFramework.Runtime;
 
 namespace EdgeShimmer.Save
 {
-    public class PlayerDataManager : GameFrameworkComponent
+    public class PlayerDataComponent : GameFrameworkComponent
     {
         private List<IDataController> m_ControllerList;
         private ISaveHelper m_SaveHelper;

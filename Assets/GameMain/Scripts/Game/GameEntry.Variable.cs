@@ -110,7 +110,7 @@ namespace EdgeShimmer
         /// <summary>
         /// 获取存档组件。
         /// </summary>
-        public static PlayerDataManager DataManager { get; private set; }
+        public static PlayerDataComponent PlayerData { get; private set; }
 
 
         void InitGameFrameWorkComponents()
@@ -135,7 +135,7 @@ namespace EdgeShimmer
             WebRequest = UnityGameFramework.Runtime.GameEntry.GetComponent<WebRequestComponent>();
             FileSystem= UnityGameFramework.Runtime.GameEntry.GetComponent<FileSystemComponent>();
             Config = UnityGameFramework.Runtime.GameEntry.GetComponent<ConfigComponent>();
-            DataManager = UnityGameFramework.Runtime.GameEntry.GetComponent<PlayerDataManager>();
+            PlayerData = UnityGameFramework.Runtime.GameEntry.GetComponent<PlayerDataComponent>();
         }
     }
 }
